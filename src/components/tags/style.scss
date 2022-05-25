@@ -1,0 +1,15 @@
+.tags {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  .content {
+    text-align: left;
+    flex-basis: 60%;
+    .tag-ref {
+      border-radius: 50px;
+    }
+  }
+  .input {
+    flex-basis: 40%;
+  }
+}
